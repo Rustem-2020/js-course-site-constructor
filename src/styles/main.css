@@ -1,0 +1,31 @@
+body{
+    font-size:22px;
+}
+#app{
+    position:relative;
+}
+.content{
+    position:absolute;
+    top:0;
+    right:0;
+    left:240px;
+    border:1pz solid black;
+    padding:20px;
+}
+.sidebar{
+    position:fixed;
+    top: 0;
+    left: 0;    
+    bottom: 0;
+    width:240px;
+    z-index:100;
+    padding:10px;
+    overflow-y:auto;
+    
+}
+.form-group {
+    padding:7px 0;
+}
+.form-control{
+    border:1px solid grey;
+}
